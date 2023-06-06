@@ -6,8 +6,8 @@ import serial
 pygame.init()
 
 
-# # Serial port initialization
-# serial_port = serial.Serial('COM3', 9600)  # Replace with your Arduino port and baud rate
+# Serial port initialization
+serial_port = serial.Serial('COM3', 9600)  # Replace with your Arduino port and baud rate
 
 print('pygame.USEREVENT', pygame.USEREVENT)
 
